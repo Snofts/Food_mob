@@ -1,0 +1,507 @@
+/* big tablet to 1200px (widths smaller than the 1140px row)*/
+@media only screen and (max-width: 1200px) {
+    body{
+        font-size: 15px;
+        height: 100vh;
+    }
+
+    .blog{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .blog-box p{
+        margin-bottom: 30px;
+    }
+
+    .compound-box{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+/* small tablet to big tablet(from 768px to 1023px)*/
+@media only screen and (max-width: 1024px) {
+    body{
+        font-size: 12px;
+    }
+
+    .descrip{
+        width: 45%;
+    }
+    
+    .main-nav li{
+        height: 10px;
+    }
+
+    .box {
+        width: 30%;
+    }
+
+    .blog-box p{
+        width: 170px;
+        font-size: 17px;
+    }
+
+    .box:not(:last-child) {
+        margin-right: 4%;
+    }
+
+    .contact-header{
+        font-size: 15px;
+    }
+
+    .section1{
+        height: 230px;
+    }
+
+    .product-link a{
+      margin: 40px 30px 20px 45px;
+    }
+
+    .show-more{
+        margin: 10px 285px;
+    }
+
+    .aboutus h5{
+        padding: 230px 70px;
+    }
+
+    .vision{
+        margin-top: 40px;
+    }
+
+    .about-us_text_para{
+        font-size: 13px;
+    }
+
+    .faq_parag {
+        width: 100%;
+        font-size: 25px;
+        margin: 30px 0px 30px 0px;
+    }
+}
+
+/* small phones to small tablets(from 481px to 767px)*/
+@media only screen and (max-width: 768px) {
+        .main-nav { 
+            padding: 5px;
+            text-align: center;
+        }
+    
+        .main-nav li{ 
+            font-size: 14px;
+            display: inline-block;
+            margin: 2% 5% auto auto;
+            padding:auto;
+            height:30px;
+        }
+
+        .main-nav_ul li:not(:last-child) {
+            margin-right: 8%;
+        }
+    
+        .descrip{
+            font-size: 20px;
+            width: 70%;
+            padding: 5% 2% 2% 6%;   
+        }
+    
+        .descrip-link a{
+            margin-left: 30px;
+        }
+    
+        input[type=submit]:link,
+        input[type=submit]:visited,
+        .descrip-link a:link,
+        .descrip-link a:visited{
+        color: #fff; 
+        text-decoration: none;
+        padding: 5px 15px;
+        }
+    
+        .products{
+            margin-left: 2%;
+            margin-right: 2%;
+            padding: 2%;
+        }
+
+        .product-link a {
+            margin: 10px 3px 10px 14px;
+        }
+
+        .box img{
+            height: 150px;
+        }
+    
+        .show-more{
+            margin: 0px 75px;
+            padding: 32px;
+        }
+    
+        .show-more a{
+            margin-left : 30%;
+        }
+
+        .col{
+            margin-top: 4%;
+        }
+    
+        input[type=submit]{
+            font-size: 13px;
+            padding: 1px 15px;
+            height: 20px;
+        }
+    
+        /*-- BLOG --*/
+        h2 {
+            padding: 20px 30px 10px 20px;
+        }
+
+        .blog-box{
+            display: block;
+            margin-left: 30px;
+        }
+
+        .blog-box p {
+            width: 100px;
+            font-size: 13px;
+        }
+
+        .contact-box{
+            padding: 10px;
+        }
+    
+        /*-- FOOTER --*/
+        
+        .form_content{
+            margin-bottom: 50px;
+        }
+    
+        footer{
+            height: 170px;
+        }
+        .subscribe{
+            padding: 10px 15px 0px 15px ;
+            font-size: 15px;
+        }
+        
+        .subscribe-btn{
+            margin-top: 0px;
+            padding-left: 5px;
+        }
+    
+        .form-area{
+            width: 250px;
+            height: 29px;
+        }
+    
+        .address{
+            margin-top: 10px;
+            padding-left: 0px;
+            font-size: 15px;
+        }
+    
+        .copy{
+            font-size: 15px;
+        }
+
+        .faq{
+            height: 40px;
+        }
+    
+        .faq__questions {
+            margin: 30px;
+        }
+    
+        .faq__header {
+            font-size: 15px;
+        }
+    
+        .faq-home a {
+            font-size: 10px;
+        }
+    
+        .faq-home {
+            margin-bottom: 40px;
+        }
+    
+        .faq_parag {
+            width: 100%;
+            font-size: 15px;
+            margin: 30px 0px 30px 0px;
+        }
+   
+}
+
+
+/* small phones (from 0px to 425px)*/
+@media only screen and (max-width: 425px) {
+    *{
+        font-size: 10px;
+    }
+
+    h1{
+        padding: 10px;
+    }
+
+    .main-nav li{
+        margin-top: 0%;
+        margin-bottom: auto;
+        margin-left: auto;
+        height: 20px;
+    }
+
+    .main-nav li:not(:last-child){
+        margin-right: 5%;
+    }
+
+    .section1{
+        height: 130px;
+    }
+
+    .descrip{
+        width: 40%;
+    }
+
+    .descrip-link a {
+        margin-left: 26px;
+    }
+
+    input[type=submit]:link, 
+    input[type=submit]:visited, 
+    .descrip-link a:link, 
+    .descrip-link a:visited {
+        padding: 1px 10px;
+    }
+
+    .blog {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .contact-header {
+        margin-bottom: 20px;
+    }
+
+    .contact-box {
+        height: 90px;
+    }
+
+    .form-area {
+        height: 20px;
+    }
+
+    button {
+        height: 20px;
+    }
+
+    .aboutus{
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    
+    .aboutus-img{
+        background-image: hidden;
+        padding-top: 0px;
+    }
+    
+    .aboutus h5 {
+        padding: 20px 20px;
+        height: 0px;
+        background-size: 0px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    
+    .aboutus-text {
+        color:black;
+        font-size: 20px;
+        width: 30%;
+    }
+
+    footer {
+        height: 110px;
+    }
+
+    .faq{
+        height: 40px;
+    }
+
+    .faq__questions {
+        margin: 30px;
+    }
+
+    .faq__header {
+        font-size: 15px;
+    }
+
+    .faq-home a {
+        font-size: 10px;
+    }
+
+    .faq-home {
+        margin-bottom: 40px;
+    }
+
+    .faq_parag {
+        width: 100%;
+        font-size: 25px;
+        margin: 30px 0px 30px 0px;
+    }
+}
+
+/* small phones (from 0px to 375px)*/
+@media only screen and (max-width: 375px) {
+
+.descrip {
+    width: 50%;
+}
+
+.descrip-link a {
+    margin-left: 23px;
+}
+
+.products {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.box {
+    width: 100%;
+    margin-right: 0%;
+    margin-bottom: 20%;
+}
+
+.blog-box p {
+    width: 230px;
+}
+
+.product-link a {
+    margin: 10px 3px 10px 56px;
+}
+
+.signup-page {
+    margin-top: 0px;
+}
+
+.show-more a {
+    margin-left: 22%;
+}
+
+.aboutus{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.aboutus-img{
+    background-image: hidden;
+    padding-top: 0px;
+}
+
+.aboutus h5 {
+    padding: 20px 20px;
+    height: 0px;
+    background-size: 0px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.aboutus-text {
+    color:black;
+    font-size: 20px;
+    width: 30%;
+}
+
+.faq{
+    height: 40px;
+}
+
+.faq__questions {
+    margin: 30px;
+}
+
+.faq__header {
+    font-size: 15px;
+}
+
+.faq-home a {
+    font-size: 10px;
+}
+
+.faq-home {
+    margin-bottom: 40px;
+}
+
+.faq_parag {
+    width: 100%;
+    font-size: 25px;
+    margin: 30px 0px 30px 0px;
+}
+
+}
+
+/* small phones (from 0px to 375px)*/
+@media only screen and (max-width: 375px) {
+    .descrip-link a {
+        margin-left: 20px;
+    }
+
+    .product-link a {
+        margin: 10px 3px 10px 44px;
+    }
+
+    .show-more {
+        padding: 10px;
+    }
+
+    .show-more a{
+        margin-left: 30px;
+    }
+
+    footer {
+        height: 120px;
+    }
+
+    .form-area {
+        width: 200px;
+    }
+
+    button {
+        width: 60px;
+    }
+
+    .blog-box p {
+        width: 180px;
+    }
+
+    .contact-header {
+        width: 50%;
+    }
+
+    .faq{
+        height: 40px;
+    }
+
+    .faq__questions {
+        margin: 30px;
+    }
+
+    .faq__header {
+        font-size: 15px;
+    }
+
+    .faq-home a {
+        font-size: 10px;
+    }
+
+    .faq-home {
+        margin-bottom: 40px;
+    }
+
+    .faq_parag {
+        width: 100%;
+        font-size: 25px;
+        margin: 30px 0px 30px 0px;
+    }
+}
