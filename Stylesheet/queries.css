@@ -473,7 +473,8 @@
     }
 
     .blog-box p {
-        width: 180px;
+        width: 235px;
+        font-size: 16px;
     }
 
     .contact-header {
