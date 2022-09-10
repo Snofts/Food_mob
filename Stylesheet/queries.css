@@ -448,11 +448,12 @@
     }
 
     .product-link a {
-        margin: 10px 3px 10px 44px;
+        margin: 10px 3px 10px 56px;
     }
 
     .show-more {
         padding: 10px;
+        margin: 0px 100px;
     }
 
     .show-more a{
