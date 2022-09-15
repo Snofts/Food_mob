@@ -12,6 +12,7 @@
 
     .blog-box p{
         margin-bottom: 30px;
+        width: 100%;
     }
 
     .compound-box{
@@ -39,7 +40,6 @@
     }
 
     .blog-box p{
-        width: 170px;
         font-size: 17px;
     }
 
@@ -184,7 +184,6 @@
         }
 
         .blog-box p {
-            width: 100px;
             font-size: 13px;
         }
 
@@ -269,6 +268,10 @@
         margin-right: 5%;
     }
 
+    .blog-box p{
+        font-size: 23px;
+    }
+
     .ordernow{
         height: 130%;
     }
@@ -326,6 +329,10 @@
     .blog {
         margin-left: 70px;
         margin-right: 70px;
+    }
+
+    .blog-box p{
+        font-size: 15px;
     }
 
     .contact-header {
@@ -419,10 +426,6 @@
     width: 100%;
     margin-right: 0%;
     margin-bottom: 20%;
-}
-
-.blog-box p {
-    width: 230px;
 }
 
 .products{
