@@ -264,7 +264,7 @@
         padding: 0%;
     }
 
-    .main-nav_ul li:not(:last-child) {
+    .main-nav li:not(:last-child) {
         margin-right: 5%;
     }
 
